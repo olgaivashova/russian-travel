@@ -1,0 +1,12 @@
+.place__web-heading {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: 0;
+  color: #aaaaaa;
+  align-self: center;
+  border: 1px solid blue;
+}

@@ -1,0 +1,10 @@
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 690px;
+  min-height: 429px;
+  box-sizing: border-box;
+  margin-left: 148px;
+  padding-top: 92px;
+  border: 2px solid red;
+}

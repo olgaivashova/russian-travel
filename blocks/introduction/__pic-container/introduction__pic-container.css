@@ -1,0 +1,6 @@
+.introduction__pic-container {
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid blue;
+  box-sizing: border-box;
+}

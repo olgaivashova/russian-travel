@@ -1,8 +1,13 @@
 .introduction__subtitle {
+  margin: 0 auto;
   font-family: Inter;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0em;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  max-width: 640px;
+  width: 100%;
   text-align: center;
 }

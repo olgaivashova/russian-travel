@@ -1,0 +1,9 @@
+.header__links {
+  border: 1px solid red;
+  list-style-type: none;
+  display: flex;
+  max-width: 76px;
+  justify-content: space-between;
+  padding-top: 46px;
+  margin: 0;
+}

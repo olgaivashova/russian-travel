@@ -1,0 +1,7 @@
+.place__paragraph {
+  grid-area: text;
+  min-width: 484px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

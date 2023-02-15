@@ -1,0 +1,6 @@
+.introduction__picture {
+  max-width: 984px;
+  width: 100%;
+  height: 615px;
+  object-fit: cover;
+}

@@ -1,6 +1,7 @@
 .page {
-  width: 1024px;
-  height: 6895px;
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
   margin: 0;
   font-family: "Inter", sans-serif;
   background-color: #2a2c2f;
@@ -8,4 +9,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }

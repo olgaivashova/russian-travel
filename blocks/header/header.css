@@ -1,8 +1,11 @@
 .header {
-  height: 52px;
-  width: 928px;
-  padding-left: 48px;
-  padding-top: 28px;
+  min-height: 52px;
+  max-width: 1185px;
+  width: 100%;
+  margin-left: 48px;
+  margin-right: 48px;
   display: flex;
   justify-content: space-between;
+
+  border: 2px solid blue;
 }

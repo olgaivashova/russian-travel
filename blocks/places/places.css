@@ -1,8 +1,9 @@
 .places {
-  width: 928px;
-  min-height: 3292px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 48px;
-  padding-right: 48px;
+  max-width: 984px;
+  width: 100%;
+  min-height: 3392px;
+  margin-left: 148px;
+  margin-right: 148px;
+  border: 1px solid blue;
+  box-sizing: border-box;
 }
