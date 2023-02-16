@@ -3,9 +3,15 @@
   display: grid;
   grid-template-columns: 50px 57px 94px 86px 106px;
   column-gap: 18px;
-
   margin: 0;
-  border: 1px solid green;
-  justify-self: center;
-  align-self: center;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 186px;
+    min-height: 296px;
+  }
 }

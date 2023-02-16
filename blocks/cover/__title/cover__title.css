@@ -6,7 +6,13 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
-  margin: 0;
+  margin: 0 auto;
   max-width: 560px;
   width: 100%;
+}
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

@@ -1,7 +1,15 @@
 .place__paragraph {
   grid-area: text;
-  min-width: 484px;
-  width: 100%;
+  max-width: 484px;
   margin: 0;
   padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    max-width: 352px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .place__paragraph {
+  }
 }

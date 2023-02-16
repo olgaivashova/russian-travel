@@ -1,11 +1,30 @@
 .header {
   min-height: 52px;
-  max-width: 1185px;
-  width: 100%;
+  max-width: 1184px;
   margin-left: 48px;
   margin-right: 48px;
   display: flex;
   justify-content: space-between;
+}
 
-  border: 2px solid blue;
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    min-height: 42px;
+    margin-left: 16px;
+    margin-right: 16px;
+    min-height: 42px;
+    padding-top: 16px;
+  }
 }

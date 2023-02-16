@@ -1,6 +1,27 @@
 .introduction__picture {
-  max-width: 984px;
-  width: 100%;
+  width: 984px;
   height: 615px;
   object-fit: cover;
+  display: block;
 }
+
+@media screen and (max-width: 1024px) {
+  .introduction__picture {
+    width: 928px;
+    height: 580px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .introduction__picture {
+    width: 768px;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .introduction__picture {
+    width: 320px;
+    height: 200px;
+  }
+}
+
+

@@ -7,9 +7,34 @@
   grid-template-areas:
     "title web"
     "image text";
-  margin-bottom: 80px;
-  border: 3px solid red;
+  padding-bottom: 80px;
 }
 .place:last-child {
-  margin-bottom: 92px;
+  padding-bottom: 0;
+}
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns:
+      minmax(440px, max-content)
+      minmax(min-content, max-content);
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns:
+      minmax(340px, max-content)
+      minmax(min-content, max-content);
+    gap: 48px 28px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }

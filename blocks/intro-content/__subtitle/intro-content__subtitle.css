@@ -9,3 +9,10 @@
   padding-top: 40px;
   padding-bottom: 33px;
 }
+@media screen and (max-width: 600px) {
+  .intro-content__subtitle {
+    min-height: 520px;
+    line-height: 26.08px;
+    padding-bottom: 34px;
+  }
+}

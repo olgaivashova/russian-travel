@@ -2,3 +2,9 @@
   grid-area: web;
   align-self: end;
 }
+@media screen and (max-width: 320px) {
+  .place__web {
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+}
