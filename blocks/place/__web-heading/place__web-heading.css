@@ -19,5 +19,6 @@
   .place__web-heading {
     font-size: 12px;
     line-height: 12px;
+    padding-top: 32px;
   }
 }

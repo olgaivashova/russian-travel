@@ -9,7 +9,9 @@
     max-width: 352px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 320px) {
   .place__paragraph {
+    padding-top: 16px;
+    padding-left: 16px;
   }
 }

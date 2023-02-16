@@ -1,17 +1,16 @@
 .footer__links {
   list-style: none;
-  display: grid;
-  grid-template-columns: 50px 57px 94px 86px 106px;
-  column-gap: 18px;
+  display: flex;
+  width: 446px;
+  justify-content: space-between;
   margin: 0;
 }
 
 @media screen and (max-width: 320px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 186px;
-    min-height: 296px;
+    width: 186px;
+    height: 248px;
   }
 }
