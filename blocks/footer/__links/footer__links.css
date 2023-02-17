@@ -11,6 +11,6 @@
     flex-direction: column;
     justify-content: space-between;
     width: 186px;
-    height: 248px;
+    min-height: 248px;
   }
 }
