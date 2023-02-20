@@ -2,11 +2,13 @@
   grid-area: web;
   align-self: end;
 }
+
 @media screen and (max-width: 320px) {
   .place__web {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
     padding-left: 16px;
     padding-right: 16px;
-    align-items: flex-start;
-    align-self: flex-start;
   }
 }

@@ -7,6 +7,7 @@
 }
 @media screen and (max-width: 1024px) {
   .introduction {
+    max-width: 928px;
     margin-left: 48px;
     margin-right: 48px;
   }
@@ -14,15 +15,13 @@
 
 @media screen and (max-width: 768px) {
   .introduction {
-    width: 100%;
+    max-width: 768px;
     margin-left: 0;
     margin-right: 0;
   }
 }
 @media screen and (max-width: 320px) {
   .introduction {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    max-width: 320px;
   }
 }

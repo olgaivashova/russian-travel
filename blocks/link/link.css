@@ -3,7 +3,7 @@
 }
 
 .link:hover {
-  color: rgb(153, 146, 146);
-  opacity: 0.3;
+  background-color: #dadada;
+  opacity: 0.8;
   transition: ease-in 0.2s;
 }

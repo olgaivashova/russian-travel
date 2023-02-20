@@ -13,9 +13,9 @@
   font-weight: 700;
 }
 @font-face {
-  src: url(../fonts/InterWeb/Inter-Thin.woff2) format("woff2"),
-    url(../fonts/InterWeb/Inter-Thin.woff) format("woff");
+  src: url(../fonts/InterWeb/Inter-Black.woff2) format("woff2"),
+    url(../fonts/InterWeb/Inter-Black.woff) format("woff");
   font-family: "Inter";
   font-style: normal;
-  font-weight: 100;
+  font-weight: 900;
 }

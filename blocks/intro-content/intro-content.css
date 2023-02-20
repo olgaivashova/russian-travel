@@ -5,6 +5,7 @@
   min-height: 429px;
   box-sizing: border-box;
   margin-left: 148px;
+  margin-right: 148px;
   padding-top: 92px;
 }
 @media screen and (max-width: 1024px) {
@@ -22,7 +23,7 @@
     padding-top: 88px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .intro-content {
     max-width: 288px;
     min-height: 754px;

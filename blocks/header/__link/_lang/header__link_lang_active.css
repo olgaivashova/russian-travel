@@ -1,0 +1,10 @@
+.header__link_lang_active {
+  text-decoration: underline;
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__link_lang_active {
+    padding-right: 16px;
+  }
+}
