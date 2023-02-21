@@ -27,17 +27,18 @@
       minmax(340px, max-content)
       minmax(min-content, max-content);
     gap: 48px 28px;
-    padding-bottom: 72px;
+    padding-bottom: 73px;
   }
 }
 @media screen and (max-width: 320px) {
   .place {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 320px;
-    min-height: 964px;
-    align-items: flex-start;
-    justify-content: flex-start;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    grid-template-areas:
+      "title"
+      "web"
+      "image"
+      "text";
+    padding-bottom: 50px;
   }
 }

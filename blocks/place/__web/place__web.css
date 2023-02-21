@@ -3,12 +3,15 @@
   align-self: end;
 }
 
+@media screen and (max-width: 768px) {
+  .place__web {
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__web {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
     padding-left: 16px;
     padding-right: 16px;
+    border: 1px solid red;
   }
 }

@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 320px) {
   .header__links {
-    padding-top: 16px;
+    padding-top: 30px;
     max-width: 62px;
   }
 }
